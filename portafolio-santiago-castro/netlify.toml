@@ -1,0 +1,18 @@
+[build]
+  publish = "pages"
+  command = ""
+
+[[redirects]]
+  from = "/productos"
+  to = "/pages/productos.html"
+  status = 200
+
+[[redirects]]
+  from = "/blog"
+  to = "/pages/blog.html"
+  status = 200
+
+[[redirects]]
+  from = "/*"
+  to = "/pages/index.html"
+  status = 200
